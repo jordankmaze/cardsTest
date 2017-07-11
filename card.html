@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .card {
+      display:inline-block;
+      text-align:center;
+      margin:5px;
+      padding:18px 15px 0 15px;
+      width:70px;
+      height:40px;
+
+      font-size:22px;
+      background-color:#999999;
+      border: solid 1px black;
+    }
+
+    .red {
+      background-color:#E55451;
+      border: solid 1px #8C001A;
+      color:#8C001A;
+    }
+
+    .template {
+      display:none;
+    }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="card.js"></script>
+
+</head>
+<body>
+
+  <div>
+    <button id="drawbtn">ASCENDING CARDS</button>
+    <button id="shufflebtn">SHUFFLE CARDS</button>
+  </div>
+
+  <div class="card template">
+      <span class="rank"></span>
+      <span class="suit"></span>
+  </div>
+
+</body>
+</html>
